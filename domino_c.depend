@@ -1,0 +1,47 @@
+# depslib dependency file v1.0
+1793810869 source:c:\users\walter.cavalcante\documents\c\domino_c\conf_iniciais.c
+	"conf_iniciais.h"
+	<stdlib.h>
+	<stdio.h>
+	<time.h>
+
+1793807058 c:\users\walter.cavalcante\documents\c\domino_c\conf_iniciais.h
+	"jogador.h"
+
+1793807058 c:\users\walter.cavalcante\documents\c\domino_c\jogador.h
+
+1793806738 source:c:\users\walter.cavalcante\documents\c\domino_c\menu.c
+	"jogador.h"
+	"menu.h"
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1793812993 c:\users\walter.cavalcante\documents\c\domino_c\menu.h
+	"jogador.h"
+
+1793810869 source:c:\users\walter.cavalcante\documents\c\domino_c\ui.c
+	"ui.h"
+	<stdlib.h>
+	<stdio.h>
+
+1793810708 c:\users\walter.cavalcante\documents\c\domino_c\ui.h
+	"jogador.h"
+
+1793813031 source:c:\users\walter.cavalcante\documents\c\domino_c\main.c
+	"conf_iniciais.h"
+	"fim_de_jogo.h"
+	"jogador.h"
+	"menu.h"
+	"ui.h"
+	<time.h>
+	<stdio.h>
+	<stdlib.h>
+
+1793812806 source:c:\users\walter.cavalcante\documents\c\domino_c\fim_de_jogo.c
+	"fim_de_jogo.h"
+	<stdio.h>
+
+1793812285 c:\users\walter.cavalcante\documents\c\domino_c\fim_de_jogo.h
+	"jogador.h"
+
