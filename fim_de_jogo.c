@@ -1,4 +1,5 @@
 #include "fim_de_jogo.h"
+#include <stdlib.h>
 #include <stdio.h>
 
 void calcular_pts(struct jogador jogs[], int pontos[], int qtd_jogs)
@@ -94,6 +95,12 @@ void imprimir_vencedor(
 {
     if (qtd_jogs == qtd_pulos)
         jog = retornar_vencedor(jogs, qtd_jogs);
+
+#ifdef _WIN32
+    system("cls");
+#else
+    system("clear");
+#endif
 
     printf("\n\t%s venceu!!!\n", jog.nome);
 }

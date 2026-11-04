@@ -10,7 +10,7 @@
 
 1793807058 c:\users\walter.cavalcante\documents\c\domino_c\jogador.h
 
-1793806738 source:c:\users\walter.cavalcante\documents\c\domino_c\menu.c
+1793813555 source:c:\users\walter.cavalcante\documents\c\domino_c\menu.c
 	"jogador.h"
 	"menu.h"
 	<stdio.h>
@@ -38,8 +38,9 @@
 	<stdio.h>
 	<stdlib.h>
 
-1793812806 source:c:\users\walter.cavalcante\documents\c\domino_c\fim_de_jogo.c
+1793814313 source:c:\users\walter.cavalcante\documents\c\domino_c\fim_de_jogo.c
 	"fim_de_jogo.h"
+	<stdlib.h>
 	<stdio.h>
 
 1793812285 c:\users\walter.cavalcante\documents\c\domino_c\fim_de_jogo.h

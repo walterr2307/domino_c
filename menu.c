@@ -57,7 +57,7 @@ int carregar_jogo()
             continue;
         }
 
-        if (carregar)
+        if (carregar == 1)
         {
             if (arquivo_vazio())
             {
