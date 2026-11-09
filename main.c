@@ -112,7 +112,7 @@ int main()
 
     do
     {
-        ind_jog = compra ? ind_jog : (ind_jog + 1) % qtd_jogs;
+        ind_jog = compra ? ind_jog : ++ind_jog % qtd_jogs;
         jog = jogs[ind_jog];
 
         imprimir_tabuleiro();
