@@ -32,7 +32,7 @@ int ler_qtd_jogs()
     return qtd_jogs;
 }
 
-embaralhar_pecas()
+void embaralhar_pecas()
 {
     int j, copia;
 
