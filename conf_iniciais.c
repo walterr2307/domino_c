@@ -150,6 +150,9 @@ void inicializar_jogo()
 
     jog = jogs[ind_jog];
 
+    qtd_pecas_compra = 28 - 7 * qtd_jogs;
+    ind_compra = 7 * qtd_jogs;
+
     lado_esq = jog.lados_esq[ind_peca];
     lado_dir = jog.lados_dir[ind_peca];
 
